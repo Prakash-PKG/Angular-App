@@ -1,0 +1,8 @@
+<h3>Welcome to Student Edit Page</h3>
+<form (ngSubmit)="updateStudent()">
+Student Id : <input type="text" class="form-control" [(ngModel)]="student.stdId" name="stdId" readonly/>
+Student Name : <input type="text" class="form-control" [(ngModel)]="student.stdName" name="stdName"/>
+Student Fee : <input type="text" class="form-control" [(ngModel)]="student.stdFee" name="stdFee"/>
+Student Course : <input type="text" class="form-control" [(ngModel)]="student.stdCourse" name="stdCourse"/>
+<input type="submit" value="Update" class="btn btn-success"/>
+</form>
